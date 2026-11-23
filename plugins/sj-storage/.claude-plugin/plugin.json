@@ -1,0 +1,17 @@
+{
+  "name": "sj-storage",
+  "displayName": "SJ Storage",
+  "version": "1.0.0",
+  "description": "Self-storage units, prices, live availability, hours, policies and rental links for SJ Storage in Twin Falls, Idaho.",
+  "author": {
+    "name": "SJ Storage",
+    "url": "https://sjstorage.net/"
+  },
+  "homepage": "https://sjstorage.net/connect/",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "apprised-news": {
+      "type": "http",
+      "url": "https://apprised.news/mcp"
+    }
+  }
+}

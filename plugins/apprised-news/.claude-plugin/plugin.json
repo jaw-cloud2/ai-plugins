@@ -1,0 +1,17 @@
+{
+  "name": "apprised-news",
+  "displayName": "Apprised.news",
+  "version": "1.0.0",
+  "description": "Breaking headlines, the Daily Intelligence Report and desk briefs from Apprised.news, an AI-written intelligence publication, with source links.",
+  "author": {
+    "name": "Apprised.news",
+    "url": "https://apprised.news/"
+  },
+  "homepage": "https://apprised.news/connect/",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

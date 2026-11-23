@@ -1,0 +1,17 @@
+{
+  "name": "jwatte-website-tools",
+  "displayName": "jwatte.com website tools",
+  "version": "1.0.0",
+  "description": "Find a free jwatte.com website audit tool, get a ready-to-run audit link, and search or list jwatte.com articles and books.",
+  "author": {
+    "name": "Josh Watte",
+    "url": "https://jwatte.com/"
+  },
+  "homepage": "https://jwatte.com/connect/",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

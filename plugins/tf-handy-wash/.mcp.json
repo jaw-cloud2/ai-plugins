@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tf-handy-wash": {
+      "type": "http",
+      "url": "https://tfhandywash.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tf-handy-wash",
+  "displayName": "TF Handy Wash",
+  "version": "1.0.0",
+  "description": "Prices, machines, cycle times, hours, payment methods and problem-reporting steps for TF Handy Wash, a 24-hour laundromat in Twin Falls, Idaho.",
+  "author": {
+    "name": "TF Handy Wash",
+    "url": "https://tfhandywash.com/"
+  },
+  "homepage": "https://tfhandywash.com/connect.html",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

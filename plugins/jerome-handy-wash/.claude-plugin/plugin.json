@@ -1,0 +1,17 @@
+{
+  "name": "jerome-handy-wash",
+  "displayName": "Jerome Handy Wash",
+  "version": "1.0.0",
+  "description": "Prices, machines, cycle times, hours, payment methods and problem-reporting steps for Jerome Handy Wash, a 24-hour laundromat in Jerome, Idaho.",
+  "author": {
+    "name": "Jerome Handywash LLC",
+    "url": "https://jeromehandywash.com/"
+  },
+  "homepage": "https://jeromehandywash.com/connect/",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

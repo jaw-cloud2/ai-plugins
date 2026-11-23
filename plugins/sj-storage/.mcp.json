@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sj-storage": {
+      "type": "http",
+      "url": "https://sjstorage.net/mcp"
+    }
+  }
+}

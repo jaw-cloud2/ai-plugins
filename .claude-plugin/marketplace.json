@@ -1,0 +1,41 @@
+{
+  "name": "jaw-cloud2-plugins",
+  "owner": {
+    "name": "jaw-cloud2"
+  },
+  "metadata": {
+    "description": "Claude plugins for the public connectors of SJ Storage, TF Handy Wash, Jerome Handy Wash, jwatte.com, Apprised.news and TF Rooms."
+  },
+  "plugins": [
+    {
+      "name": "sj-storage",
+      "source": "./plugins/sj-storage",
+      "description": "Self-storage units, prices, live availability, hours, policies and rental links for SJ Storage in Twin Falls, Idaho."
+    },
+    {
+      "name": "tf-handy-wash",
+      "source": "./plugins/tf-handy-wash",
+      "description": "Prices, machines, cycle times, hours, payment methods and problem-reporting steps for TF Handy Wash, a 24-hour laundromat in Twin Falls, Idaho."
+    },
+    {
+      "name": "jerome-handy-wash",
+      "source": "./plugins/jerome-handy-wash",
+      "description": "Prices, machines, cycle times, hours, payment methods and problem-reporting steps for Jerome Handy Wash, a 24-hour laundromat in Jerome, Idaho."
+    },
+    {
+      "name": "jwatte-website-tools",
+      "source": "./plugins/jwatte-website-tools",
+      "description": "Find a free jwatte.com website audit tool, get a ready-to-run audit link, and search or list jwatte.com articles and books."
+    },
+    {
+      "name": "apprised-news",
+      "source": "./plugins/apprised-news",
+      "description": "Breaking headlines, the Daily Intelligence Report and desk briefs from Apprised.news, an AI-written intelligence publication, with source links."
+    },
+    {
+      "name": "tf-rooms",
+      "source": "./plugins/tf-rooms",
+      "description": "Rooms, rates, quotes and booking requests for thirteen New Leaf properties: twelve motels and extended stays in Twin Falls, Idaho, plus High Country Motel in Bellevue."
+    }
+  ]
+}

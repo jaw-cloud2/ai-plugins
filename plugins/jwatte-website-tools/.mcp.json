@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jwatte-website-tools": {
+      "type": "http",
+      "url": "https://jwatte.com/mcp"
+    }
+  }
+}

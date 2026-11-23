@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jerome-handy-wash": {
+      "type": "http",
+      "url": "https://jeromehandywash.com/mcp"
+    }
+  }
+}

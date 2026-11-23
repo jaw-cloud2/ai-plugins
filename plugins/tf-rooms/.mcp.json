@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tf-rooms": {
+      "type": "http",
+      "url": "https://tfrooms.com/mcp"
+    }
+  }
+}

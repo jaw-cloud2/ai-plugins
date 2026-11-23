@@ -1,0 +1,17 @@
+{
+  "name": "tf-rooms",
+  "displayName": "TF Rooms",
+  "version": "1.0.0",
+  "description": "Rooms, rates, quotes and booking requests for thirteen New Leaf properties: twelve motels and extended stays in Twin Falls, Idaho, plus High Country Motel in Bellevue.",
+  "author": {
+    "name": "New Leaf Properties",
+    "url": "https://tfrooms.com/"
+  },
+  "homepage": "https://tfrooms.com/connect.html",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}
