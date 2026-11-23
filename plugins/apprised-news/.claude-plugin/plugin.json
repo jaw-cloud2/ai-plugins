@@ -10,6 +10,8 @@
   "homepage": "https://apprised.news/connect/",
   "repository": "https://github.com/jaw-cloud2/ai-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://apprised.news/privacy-policy.html#mcp",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "mcp",
     "connector"

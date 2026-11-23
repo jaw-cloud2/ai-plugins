@@ -10,6 +10,8 @@
   "homepage": "https://jwatte.com/connect/",
   "repository": "https://github.com/jaw-cloud2/ai-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://jwatte.com/privacy/#mcp",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "mcp",
     "connector"

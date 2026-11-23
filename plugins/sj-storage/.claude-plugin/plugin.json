@@ -10,6 +10,8 @@
   "homepage": "https://sjstorage.net/connect/",
   "repository": "https://github.com/jaw-cloud2/ai-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://sjstorage.net/privacy-policy.html#mcp",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "mcp",
     "connector"

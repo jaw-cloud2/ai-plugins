@@ -10,6 +10,8 @@
   "homepage": "https://tfhandywash.com/connect.html",
   "repository": "https://github.com/jaw-cloud2/ai-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://tfhandywash.com/privacy.html#mcp-privacy",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "mcp",
     "connector"

@@ -10,6 +10,8 @@
   "homepage": "https://jeromehandywash.com/connect/",
   "repository": "https://github.com/jaw-cloud2/ai-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://jeromehandywash.com/privacy/#mcp-privacy",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "mcp",
     "connector"
