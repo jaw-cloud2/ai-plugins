@@ -1,6 +1,6 @@
 ---
 name: room-search-and-booking
-description: "Use when the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or looking up or cancelling a reservation. Answers come from the TF Rooms connector, which returns the business's own published information with source links."
+description: "Use when the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or the page where a guest looks up or cancels a reservation. Answers come from the TF Rooms connector, which returns the business's own published information with source links."
 ---
 
 # TF Rooms
@@ -12,7 +12,8 @@ Use the TF Rooms tools (MCP server `tf-rooms`, https://tfrooms.com/mcp) to answe
 - Twin Falls (twelve properties) and High Country Motel (Bellevue) have separate prices, taxes and stay rules. Never apply one to the other. Twin Falls: 8 percent tax and a 30-day cap. High Country: 11 percent total tax for stays of 30 days or less; chat stays are capped at 30 nights.
 - Booking starts with stay validation and an emailed code, without a room hold. Verifying the code can hold an available room awaiting staff confirmation within 24 hours. Ask for the guest details only when the person wants to book, and only the ones the booking needs.
 - No tool takes payment or signs for a guest. Photo ID and a signed guest agreement are required at check-in before a key is issued.
-- Reservation lookup needs the reservation number and the last four digits of the phone number. Cancellation uses an emailed code in two steps; the published cancellation policy applies. Date changes are a cancel and rebook.
+- When a guest asks about an existing reservation (its status, or cancelling it), call get_reservation_link and give the guest the link it returns. Do not ask the guest for the reservation number, phone digits or a cancellation code in chat: the guest enters them on the page. Do not say that a reservation was looked up or cancelled.
+- Cancelling on that page needs a six-digit code emailed to the booking address and is available more than 48 hours before the 3 PM check-in during office hours; otherwise the guest calls the property. The published cancellation policy applies. Date changes are a cancel and rebook.
 - Never say a room is booked until the confirmation step reports it. Quote prices as published and say they are subject to availability.
 
 ## Good answers

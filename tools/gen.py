@@ -71,13 +71,14 @@ P = [
       connect='https://tfrooms.com/connect.html', privacy='https://tfrooms.com/privacy.html#ai-assistants',
       short='Rooms, rates, quotes and booking requests for thirteen New Leaf properties: twelve motels and extended stays in Twin Falls, Idaho, plus High Country Motel in Bellevue.',
       sends='your dates and room type, and, only when you ask to book, the name, email, phone and notes you give for the booking request', writes=True,
-      skill='room-search-and-booking',
-      when='the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or looking up or cancelling a reservation',
+      skill='room-search-and-booking', version='1.0.1',
+      when='the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or the page where a guest looks up or cancels a reservation',
       rules=[
        'Twin Falls (twelve properties) and High Country Motel (Bellevue) have separate prices, taxes and stay rules. Never apply one to the other. Twin Falls: 8 percent tax and a 30-day cap. High Country: 11 percent total tax for stays of 30 days or less; chat stays are capped at 30 nights.',
        'Booking starts with stay validation and an emailed code, without a room hold. Verifying the code can hold an available room awaiting staff confirmation within 24 hours. Ask for the guest details only when the person wants to book, and only the ones the booking needs.',
        'No tool takes payment or signs for a guest. Photo ID and a signed guest agreement are required at check-in before a key is issued.',
-       'Reservation lookup needs the reservation number and the last four digits of the phone number. Cancellation uses an emailed code in two steps; the published cancellation policy applies. Date changes are a cancel and rebook.',
+       'When a guest asks about an existing reservation (its status, or cancelling it), call get_reservation_link and give the guest the link it returns. Do not ask the guest for the reservation number, phone digits or a cancellation code in chat: the guest enters them on the page. Do not say that a reservation was looked up or cancelled.',
+       'Cancelling on that page needs a six-digit code emailed to the booking address and is available more than 48 hours before the 3 PM check-in during office hours; otherwise the guest calls the property. The published cancellation policy applies. Date changes are a cancel and rebook.',
        'Never say a room is booked until the confirmation step reports it. Quote prices as published and say they are subject to availability.',
       ]),
 ]
@@ -124,7 +125,7 @@ market = {'name': 'jaw-cloud2-plugins', 'owner': {'name': 'jaw-cloud2'},
 for p in P:
     d = os.path.join(ROOT, 'plugins', p['name'])
     manifest = {
-        'name': p['name'], 'displayName': p['display'], 'version': '1.0.0',
+        'name': p['name'], 'displayName': p['display'], 'version': p.get('version', '1.0.0'),
         'description': p['short'],
         'author': {'name': p['author'], 'url': p['site']},
         'homepage': p['connect'], 'repository': 'https://github.com/jaw-cloud2/ai-plugins',
@@ -160,7 +161,10 @@ Use the {p['display']} tools (MCP server `{p['name']}`, {p['url']}) to answer fr
     write_line = ('Most tools only read published information. The booking tools are the exception: '
                   'when you ask to book, they send the details you give to New Leaf Properties, which emails you a code; '
                   'a room is held only after you enter that code, and staff confirm within 24 hours. '
-                  'Looking up or cancelling a reservation needs its number and the last four digits of the phone number.'
+                  'Looking up or cancelling a reservation happens on tfrooms.com, not in chat: the connector gives the link to '
+                  'https://tfrooms.com/reservation.html, where the guest enters the reservation number and the last four digits of the contact phone. '
+                  'Cancelling there needs a six-digit code emailed to the booking address and is available more than 48 hours before the 3 PM check-in '
+                  'during office hours; otherwise the guest calls the property.'
                   if p['writes'] else
                   'Every tool is read-only: nothing is booked, bought, sent or changed, and no account is needed.')
     w(os.path.join(d, 'README.md'), f"""# {p['display']} for Claude
