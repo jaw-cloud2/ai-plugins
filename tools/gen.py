@@ -106,6 +106,11 @@ SOFTWARE.
 """
 
 
+def yq(t):
+    """Escape text for a YAML double-quoted scalar."""
+    return t.replace('\\', '\\\\').replace('"', '\\"')
+
+
 def w(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8', newline='\n') as f:
@@ -135,7 +140,7 @@ for p in P:
     rules = '\n'.join(f'- {r}' for r in p['rules'])
     w(os.path.join(d, 'skills', p['skill'], 'SKILL.md'), f"""---
 name: {p['skill']}
-description: Use when {p['when']}. Answers come from the {p['display']} connector, which returns the business's own published information with source links.
+description: "Use when {yq(p['when'])}. Answers come from the {yq(p['display'])} connector, which returns the business's own published information with source links."
 ---
 
 # {p['display']}

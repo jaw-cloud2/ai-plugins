@@ -1,6 +1,6 @@
 ---
 name: laundromat-questions
-description: Use when the person asks about TF Handy Wash at 664 Shoup Ave W, Twin Falls, Idaho: washer and dryer prices, machine sizes, cycle times, hours, payment, amenities, or what to do when a machine takes money or breaks, in English or Spanish. Answers come from the TF Handy Wash connector, which returns the business's own published information with source links.
+description: "Use when the person asks about TF Handy Wash at 664 Shoup Ave W, Twin Falls, Idaho: washer and dryer prices, machine sizes, cycle times, hours, payment, amenities, or what to do when a machine takes money or breaks, in English or Spanish. Answers come from the TF Handy Wash connector, which returns the business's own published information with source links."
 ---
 
 # TF Handy Wash

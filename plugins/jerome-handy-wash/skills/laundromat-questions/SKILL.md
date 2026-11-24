@@ -1,6 +1,6 @@
 ---
 name: laundromat-questions
-description: Use when the person asks about Jerome Handy Wash at 921 N Lincoln Ave Suite A, Jerome, Idaho: washer and dryer prices, machines, cycle times, hours, payment, amenities, or what to do when a machine takes money or breaks, in English or Spanish. Answers come from the Jerome Handy Wash connector, which returns the business's own published information with source links.
+description: "Use when the person asks about Jerome Handy Wash at 921 N Lincoln Ave Suite A, Jerome, Idaho: washer and dryer prices, machines, cycle times, hours, payment, amenities, or what to do when a machine takes money or breaks, in English or Spanish. Answers come from the Jerome Handy Wash connector, which returns the business's own published information with source links."
 ---
 
 # Jerome Handy Wash

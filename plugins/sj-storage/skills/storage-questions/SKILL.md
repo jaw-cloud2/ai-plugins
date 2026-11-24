@@ -1,6 +1,6 @@
 ---
 name: storage-questions
-description: Use when the person asks about SJ Storage in Twin Falls, Idaho: unit sizes, prices, whether a size is available, gate hours, policies, how to rent or pay, or how to contact the facility. Answers come from the SJ Storage connector, which returns the business's own published information with source links.
+description: "Use when the person asks about SJ Storage in Twin Falls, Idaho: unit sizes, prices, whether a size is available, gate hours, policies, how to rent or pay, or how to contact the facility. Answers come from the SJ Storage connector, which returns the business's own published information with source links."
 ---
 
 # SJ Storage

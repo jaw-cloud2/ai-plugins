@@ -1,6 +1,6 @@
 ---
 name: room-search-and-booking
-description: Use when the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or looking up or cancelling a reservation. Answers come from the TF Rooms connector, which returns the business's own published information with source links.
+description: "Use when the person wants a motel or extended-stay room in Twin Falls, Idaho, or at High Country Motel in Bellevue, Idaho: availability for dates, nightly or weekly rates, a quote with tax, a booking request, or looking up or cancelling a reservation. Answers come from the TF Rooms connector, which returns the business's own published information with source links."
 ---
 
 # TF Rooms

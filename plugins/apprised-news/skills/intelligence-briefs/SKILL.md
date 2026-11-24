@@ -1,6 +1,6 @@
 ---
 name: intelligence-briefs
-description: Use when the person asks for the latest headlines, the daily intelligence report, the Local Wire report, a desk brief (markets, world, technology and the other desks) or Apprised.news pages on a topic. Answers come from the Apprised.news connector, which returns the business's own published information with source links.
+description: "Use when the person asks for the latest headlines, the daily intelligence report, the Local Wire report, a desk brief (markets, world, technology and the other desks) or Apprised.news pages on a topic. Answers come from the Apprised.news connector, which returns the business's own published information with source links."
 ---
 
 # Apprised.news

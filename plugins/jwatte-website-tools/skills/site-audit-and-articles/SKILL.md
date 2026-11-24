@@ -1,6 +1,6 @@
 ---
 name: site-audit-and-articles
-description: Use when the person wants a free tool to audit or improve a website (SEO, accessibility, AI readiness, MCP, llms.txt, schema, speed), a link that runs one on their site, the newest jwatte.com articles, articles on a topic or date, or a jwatte.com book. Answers come from the jwatte.com website tools connector, which returns the business's own published information with source links.
+description: "Use when the person wants a free tool to audit or improve a website (SEO, accessibility, AI readiness, MCP, llms.txt, schema, speed), a link that runs one on their site, the newest jwatte.com articles, articles on a topic or date, or a jwatte.com book. Answers come from the jwatte.com website tools connector, which returns the business's own published information with source links."
 ---
 
 # jwatte.com website tools
