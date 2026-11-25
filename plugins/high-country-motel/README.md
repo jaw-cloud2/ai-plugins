@@ -12,7 +12,7 @@ In Claude Code:
 
 ## What this plugin contains
 
-- A connection to the High Country Motel MCP server at https://highcountrymotelid.com/mcp, run by New Leaf Properties on its own website. This is the same server as the High Country Motel connector in the Claude directory.
+- A connection to the High Country Motel MCP server at https://highcountrymotelid.com/mcp, run by New Leaf Properties on its own website. This is the same server as the motel's own High Country Motel connector.
 - One skill, `bellevue-motel-questions`, that tells Claude when to use these tools and the rules for answering (for example, quoting published prices with their source link).
 
 It contains no hooks, scripts, local programs or package installs. Nothing runs on your computer.

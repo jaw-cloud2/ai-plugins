@@ -17,6 +17,6 @@ Use the High Country Motel tools (MCP server `high-country-motel`, https://highc
 
 ## Good answers
 
-- Lead with the direct answer (the price, the hours, the availability, the article), then the source link.
+- Lead with the direct answer (the price, the availability, the bus route, the rule), then the source link.
 - Quote numbers exactly as the tool returns them. Do not estimate a price, tax or date the tool did not give.
-- If the tools do not cover the question, say so and give the published contact page: https://highcountrymotelid.com/connect.html
+- If the tools do not cover the question, say so and give the published contact page: https://highcountrymotelid.com/contact.html (front desk (208) 721-0067)
