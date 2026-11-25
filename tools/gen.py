@@ -81,6 +81,19 @@ P = [
        'Cancelling on that page needs a six-digit code emailed to the booking address and is available more than 48 hours before the 3 PM check-in during office hours; otherwise the guest calls the property. The published cancellation policy applies. Date changes are a cancel and rebook.',
        'Never say a room is booked until the confirmation step reports it. Quote prices as published and say they are subject to availability.',
       ]),
+ dict(name='high-country-motel', display='High Country Motel', author='New Leaf Properties', site='https://highcountrymotelid.com/', url='https://highcountrymotelid.com/mcp',
+      connect='https://highcountrymotelid.com/connect.html', privacy='https://highcountrymotelid.com/privacy.html#ai-assistants',
+      short='Rooms, rates and price estimates, ski trips to Sun Valley, crew, weekly and monthly stays, pets and policies at High Country Motel in Bellevue, Idaho.',
+      sends='your dates, room type, topic, language or search words', writes=False,
+      skill='bellevue-motel-questions',
+      when='the person asks about High Country Motel in Bellevue, Idaho: a room or its price for dates, a ski trip to Sun Valley from Bellevue, rooms for a work crew, contractors or seasonal workers, a weekly or monthly stay, bringing a dog or other pet, the house rules, getting there, or the local area',
+      rules=[
+       'High Country Motel is separate from the New Leaf Properties motels in Twin Falls. Never apply Twin Falls prices, the Twin Falls 8 percent tax or Twin Falls stay rules to it. Its room taxes are the three lines the tools return (11 percent in total for stays of 30 days or less).',
+       'Quote prices exactly as the tools give them. estimate_stay_price returns the reservation form\'s own estimate (subtotal, each room tax, total) for 1 to 30 nights; the front desk confirms the exact rate. Do not divide a weekly or monthly rate into a nightly price: the monthly figure is a starting rate for a stay of a month.',
+       'Everything is read-only. A request link only opens the site\'s form with the room type and dates filled in; the guest reviews, signs and sends it, and staff confirm. Never say a room was booked, held or requested.',
+       'Ski, bus, trail and price facts of other operators come with the date the page read them and the official source link. Pass both on, and say that season details should be checked with the operator.',
+       'Answer in Spanish when the person writes in Spanish; the tools take language es where the site has a Spanish page.',
+      ]),
 ]
 
 MIT = """MIT License
@@ -119,7 +132,7 @@ def w(path, text):
 
 
 market = {'name': 'jaw-cloud2-plugins', 'owner': {'name': 'jaw-cloud2'},
-          'metadata': {'description': 'Claude plugins for the public connectors of SJ Storage, TF Handy Wash, Jerome Handy Wash, jwatte.com, Apprised.news and TF Rooms.'},
+          'metadata': {'description': 'Claude plugins for the public connectors of SJ Storage, TF Handy Wash, Jerome Handy Wash, jwatte.com, Apprised.news, TF Rooms and High Country Motel.'},
           'plugins': []}
 
 for p in P:

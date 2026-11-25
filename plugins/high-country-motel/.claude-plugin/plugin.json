@@ -1,0 +1,19 @@
+{
+  "name": "high-country-motel",
+  "displayName": "High Country Motel",
+  "version": "1.0.0",
+  "description": "Rooms, rates and price estimates, ski trips to Sun Valley, crew, weekly and monthly stays, pets and policies at High Country Motel in Bellevue, Idaho.",
+  "author": {
+    "name": "New Leaf Properties",
+    "url": "https://highcountrymotelid.com/"
+  },
+  "homepage": "https://highcountrymotelid.com/connect.html",
+  "repository": "https://github.com/jaw-cloud2/ai-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://highcountrymotelid.com/privacy.html#ai-assistants",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "mcp",
+    "connector"
+  ]
+}

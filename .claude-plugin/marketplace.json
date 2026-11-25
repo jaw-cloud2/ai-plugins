@@ -4,7 +4,7 @@
     "name": "jaw-cloud2"
   },
   "metadata": {
-    "description": "Claude plugins for the public connectors of SJ Storage, TF Handy Wash, Jerome Handy Wash, jwatte.com, Apprised.news and TF Rooms."
+    "description": "Claude plugins for the public connectors of SJ Storage, TF Handy Wash, Jerome Handy Wash, jwatte.com, Apprised.news, TF Rooms and High Country Motel."
   },
   "plugins": [
     {
@@ -36,6 +36,11 @@
       "name": "tf-rooms",
       "source": "./plugins/tf-rooms",
       "description": "Rooms, rates, quotes and booking requests for thirteen New Leaf properties: twelve motels and extended stays in Twin Falls, Idaho, plus High Country Motel in Bellevue."
+    },
+    {
+      "name": "high-country-motel",
+      "source": "./plugins/high-country-motel",
+      "description": "Rooms, rates and price estimates, ski trips to Sun Valley, crew, weekly and monthly stays, pets and policies at High Country Motel in Bellevue, Idaho."
     }
   ]
 }

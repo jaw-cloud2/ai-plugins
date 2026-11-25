@@ -10,6 +10,7 @@ One plugin per published MCP connector. Each plugin folder connects Claude to th
 | [jwatte.com website tools](plugins/jwatte-website-tools/) | https://jwatte.com/mcp |
 | [Apprised.news](plugins/apprised-news/) | https://apprised.news/mcp |
 | [TF Rooms](plugins/tf-rooms/) | https://tfrooms.com/mcp |
+| [High Country Motel](plugins/high-country-motel/) | https://highcountrymotelid.com/mcp |
 
 Install in Claude Code:
 

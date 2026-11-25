@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "high-country-motel": {
+      "type": "http",
+      "url": "https://highcountrymotelid.com/mcp"
+    }
+  }
+}
