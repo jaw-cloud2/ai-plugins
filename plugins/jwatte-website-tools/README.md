@@ -1,6 +1,6 @@
 # jwatte.com website tools for Claude
 
-Find a free jwatte.com website audit tool, get a ready-to-run audit link, and search or list jwatte.com articles and books.
+Find a free jwatte.com website audit tool, get a ready-to-run audit link, and search, list and read jwatte.com articles, series and downloadable kits.
 
 ## Install
 
